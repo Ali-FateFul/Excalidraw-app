@@ -2,6 +2,11 @@ import React from "react";
 
 import { Excalidraw } from "@excalidraw/excalidraw";
 
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+
+
+gsap.registerPlugin(useGSAP);
 
 function App() {
   return (
